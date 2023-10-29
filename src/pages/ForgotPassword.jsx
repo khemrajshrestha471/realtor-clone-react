@@ -5,7 +5,7 @@ import OAuth from '../components/OAuth';
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
   function onChange(e) {
-    setEmail(e.target.value);
+    setEmail(e.target.value); 
   }
   return (
     <section>
